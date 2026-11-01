@@ -17,10 +17,10 @@ class MainApp extends StatelessWidget {
               Text('Hello World!'),
               Text('Bienvenue dans Flutter'),
               Container(
-                margin: EdgeInsets.all(20),
-                padding: EdgeInsets.all(16),
+                margin: EdgeInsets.all(40),
+                padding: EdgeInsets.all(30),
                 decoration: BoxDecoration(
-                  color: Colors.deepPurple,
+                  color: Colors.green,
                   borderRadius: BorderRadius.circular(25),
                 ),
                 child: Text(
