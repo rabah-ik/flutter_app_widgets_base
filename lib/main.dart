@@ -28,6 +28,7 @@ class MainApp extends StatelessWidget {
                   style: TextStyle(color: Colors.white, fontSize: 18),
                 ),
               ),
+              Text('Un autre texte'),
             ],
           ),
         ),
