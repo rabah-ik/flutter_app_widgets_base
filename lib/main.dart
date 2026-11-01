@@ -20,7 +20,7 @@ class MainApp extends StatelessWidget {
                 margin: EdgeInsets.all(20),
                 padding: EdgeInsets.all(16),
                 decoration: BoxDecoration(
-                  color: Colors.blueAccent,
+                  color: Colors.deepPurple,
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
