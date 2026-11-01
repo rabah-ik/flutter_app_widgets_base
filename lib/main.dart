@@ -11,7 +11,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(child: Column(children: [Text('Hello World!')])),
+        body: Center(
+          child: Column(
+            children: [Text('Hello World!'), Text('Bienvenue dans Flutter')],
+          ),
+        ),
       ),
     );
   }
