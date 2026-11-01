@@ -54,9 +54,12 @@ class MainApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text('Titre principal', style: TextStyle(fontSize: 22)),
+                  Text('Titre principal', style: TextStyle(fontSize: 28)),
                   SizedBox(height: 20),
-                  Text('Sous-titre ou description'),
+                  Text(
+                    'Sous-titre ou description',
+                    style: TextStyle(fontSize: 16),
+                  ),
                   Icon(Icons.thumb_up, color: Colors.green, size: 40),
                 ],
               ),
